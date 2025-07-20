@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaoSocket.Server", "HaoSocket.Server\HaoSocket.Server.csproj", "{EB61373B-7ECC-4CAD-BDB6-BF2A980B907C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaoSocket.Client", "HaoSocket.Client\HaoSocket.Client.csproj", "{ABBB74BF-1050-4D19-BFF8-654F0C144DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaoSocket.Shared", "HaoSocket.Shared\HaoSocket.Shared.csproj", "{471A2853-2405-4E29-80E6-8FAF5BEB702A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{2135C413-570C-4310-B0DD-1C3E3D669C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaoSocket.DemoServer", "HaoSocket.DemoServer\HaoSocket.DemoServer.csproj", "{BC98ED61-4511-4BDE-ABD4-69E1E025791B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaoSocket.DemoClient", "HaoSocket.DemoClient\HaoSocket.DemoClient.csproj", "{7FE97A7B-368F-49FD-B854-CFEC12573812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB61373B-7ECC-4CAD-BDB6-BF2A980B907C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB61373B-7ECC-4CAD-BDB6-BF2A980B907C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB61373B-7ECC-4CAD-BDB6-BF2A980B907C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB61373B-7ECC-4CAD-BDB6-BF2A980B907C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBB74BF-1050-4D19-BFF8-654F0C144DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBB74BF-1050-4D19-BFF8-654F0C144DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBB74BF-1050-4D19-BFF8-654F0C144DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBB74BF-1050-4D19-BFF8-654F0C144DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471A2853-2405-4E29-80E6-8FAF5BEB702A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471A2853-2405-4E29-80E6-8FAF5BEB702A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471A2853-2405-4E29-80E6-8FAF5BEB702A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471A2853-2405-4E29-80E6-8FAF5BEB702A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC98ED61-4511-4BDE-ABD4-69E1E025791B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC98ED61-4511-4BDE-ABD4-69E1E025791B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC98ED61-4511-4BDE-ABD4-69E1E025791B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC98ED61-4511-4BDE-ABD4-69E1E025791B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE97A7B-368F-49FD-B854-CFEC12573812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE97A7B-368F-49FD-B854-CFEC12573812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE97A7B-368F-49FD-B854-CFEC12573812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE97A7B-368F-49FD-B854-CFEC12573812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC98ED61-4511-4BDE-ABD4-69E1E025791B} = {2135C413-570C-4310-B0DD-1C3E3D669C79}
+		{7FE97A7B-368F-49FD-B854-CFEC12573812} = {2135C413-570C-4310-B0DD-1C3E3D669C79}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A9ED7E5-3351-4E8F-A05C-691FC383AB5B}
+	EndGlobalSection
+EndGlobal
