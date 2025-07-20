@@ -10,4 +10,8 @@
     <ProjectReference Include="..\HaoSocket.Shared\HaoSocket.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="System\" />
+  </ItemGroup>
+
 </Project>
