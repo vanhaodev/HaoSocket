@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HaoSocket.Client\HaoSocket.Client.csproj" />
+    <ProjectReference Include="..\HaoSocket.Shared\HaoSocket.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
